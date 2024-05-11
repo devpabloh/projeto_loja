@@ -57,6 +57,11 @@
     list-style-type: none;
 }
 
+.areaUsuario li:hover{
+    background-color: rgba(128, 128, 128, 0.474);
+    border-radius: 50%;
+}
+
 .areaUsuario img{
     height: 30px;
     width: 30px;
@@ -67,9 +72,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background: linear-gradient(180deg, rgba(131,58,180,0.9047268565629377) 0%, rgba(253,29,29,0.92) 50%, rgba(252,176,69,0.9047268565629377) 100%);
+    flex-direction: column; 
     height: 400px;
+    
 }
 
 button{
