@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.firstNav{
+    
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.firstNav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+.logoNav{
+    height: 200px;
+    width: 200px;
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcoes li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+
+.areaUsuario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.areaUsuario li{
+    list-style-type: none;
+}
+
+.areaUsuario img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    margin: 0.5;
+}
+.promocoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(131,58,180,0.9047268565629377) 0%, rgba(253,29,29,0.92) 50%, rgba(252,176,69,0.9047268565629377) 100%);
+    height: 400px;
+}
+
+.textoPrincipal{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.promocoesItems{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.chamadas{
+    margin-bottom: 30px;
+}
+
+.nomePrincipal{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.subNome{
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.rocket{
+    font-family: "Rock Salt", sans-serif;
+}
+
+.containerLista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.containerLista li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.containerProdutos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.imgProdutos{
+    height: 200px;
+    width: 200px;
+    
+}
