@@ -1,7 +1,5 @@
-const click = document.getElementsByClassName(`click`);
-const img = document.getElementsByClassName('image')
 
-
-function click(){
-    window.alert('Caralho') 
+function arrowButton(){
+    const arrowButton = document.getElementsByClassName(`arrowButton`);
+    const image = document.getElementsByClassName(`image`)
 }
