@@ -73,9 +73,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(180deg, rgba(131,58,180,0.9047268565629377) 0%, rgba(253,29,29,0.92) 50%, rgba(252,176,69,0.9047268565629377) 100%);
-    height: 400px;
-    
+}
+
+.promoDestaque{
+    height: 400px ;
+    width: 100%;
+    z-index: 0;
 }
 
 button{
