@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="carregar()">carregar</button>
+
+    <img src="imagens/promocoesEmDestaque.png" id="imagem" alt="">
+
+
+    
+    
+    <script>
+    function carregar(){
+    let img = window.document.getElementById('imagem')
+    let nomeAtualDoArquivo = img.src.split('/').pop();
+
+    if(nomeAtualDoArquivo === "promocoesEmDestaque.png"){
+        img.src = "/arquivos_SVG/email.svg"
+        
+    }else{
+        img.src = "/imagens/promocoesEmDestaque.png"
+    }
+
+       
+    }
+    </script>
+
+    
+</body>
+</html>

@@ -71,15 +71,11 @@
     </header>
     <main>
         <section class="promocoes">
-            <img src="" alt="">
-           <!--  <h1 class="textoPrincipal">Super / Desconto</h1> -->
-            <div class="promocoesItems">
-                <button><img src="arquivos_SVG/setaEsquerda.svg" alt="Seta para esquerda" class="setas"></button>
-                <div>
-                <img src="imagens/Captura de tela 2024-05-11 204325.png" class="promoDestaque" alt="seção de promoções em destaque">
-                <button onclick="arrowButton()" class="arrowButton" ><img src="arquivos_SVG/setaDireita.svg" alt="seta para direita" class="arrowButton setas"></button>
-            </div>
-            
+               <button onclick="carregar()" class="setaEsquerda buttonPromo"></button>
+
+                <img src="imagens/promocoesEmDestaque.png" class="promoDestaque" id="imagem" alt="seção de promoções em destaque">
+
+                <button onclick="carregar()" class="setaDireita buttonPromo"></button>
         </section>
         <section>
             <ul class="containerLista">
@@ -112,7 +108,18 @@
             </div>
         </section>
     </main>
-    <script src="interatividade/interatividade.js"></script>
+    <script>
+    function carregar(){
+        let img = window.document.getElementById('imagem');
+        let nomeAtualDoArquivo = img.src.split('/').pop();
+
+        if(nomeAtualDoArquivo === "promocoesEmDestaque.png"){
+            img.src = "/arquivos_SVG/sacola.svg"
+        }else{
+            img.src = "/imagens/promocoesEmDestaque.png"
+        }
+    }
+    </script>
     
 </body>
 </html>
